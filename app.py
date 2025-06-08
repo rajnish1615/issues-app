@@ -72,9 +72,9 @@ plt.tight_layout()
 plt.show()
 
 # Display milestone URLs
-from IPython.display import display, Markdown
-for _, row in milestone_df.iterrows():
-    display(Markdown(f"- *{row['Milestone']}*: [Link]({row['URL']}) — {row['Open Issues']} open issues"))
+# from IPython.display import display, Markdown
+# for _, row in milestone_df.iterrows():
+#     display(Markdown(f"- *{row['Milestone']}*: [Link]({row['URL']}) — {row['Open Issues']} open issues"))
 
 
 st.pyplot(fig1)
